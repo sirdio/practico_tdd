@@ -12,3 +12,4 @@ func TestArea(t *testing.T) {
 	want := 36.0
 	assert.Equal(t, got, want)
 }
+
