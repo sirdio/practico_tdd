@@ -7,3 +7,6 @@ func Area(base, altura float64) interface{} {
 }
 
 
+func Perimetro( lado1, lado2, lado3 float64) interface{} {
+	return lado1 + lado2 + lado3
+}
