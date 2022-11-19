@@ -14,7 +14,13 @@ func TestArea(t *testing.T) {
 }
 
 func TestPerimetro(t *testing.T)  {
-	got:= Perimetro(12.0, 6.0 , 6.0)
+	triangulo := Triangulo{
+		Lado_1: 12.0,
+		Lado_2: 6.0,
+		Lado_3: 6.0,
+
+	}
+	got:= Perimetro(triangulo)
 	want := 24.0
 	assert.Equal(t, got, want)
 }

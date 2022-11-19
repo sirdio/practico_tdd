@@ -14,8 +14,8 @@ func Area(base, altura float64) interface{} {
 Dados tres lados de un triangulo, cuando se llama a la funcion
 CalcularPerimetro, entonces retorna el Perimetro de un Triangulo
 */
-func Perimetro( lado1, lado2, lado3 float64) interface{} {
-	return lado1 + lado2 + lado3
+func Perimetro( triangulo Triangulo) interface{} {
+	return triangulo.Lado_1 + triangulo.Lado_2 + triangulo.Lado_3
 }
 
 // estructrua de tipo triangulo que contiene la longitudes de los lados del triangulo
